@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{374D275F-F208-4733-BC28-55A160FB1C5D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FinGYM</RootNamespace>
+    <AssemblyName>FinGYM</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddMangerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddMangerForm.Designer.cs">
+      <DependentUpon>AddMangerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePasswordForm.Designer.cs">
+      <DependentUpon>ChangePasswordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClassAddForm.Designer.cs">
+      <DependentUpon>ClassAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Classes.cs" />
+    <Compile Include="ClassUpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClassUpdateForm.Designer.cs">
+      <DependentUpon>ClassUpdateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Coach.cs" />
+    <Compile Include="CoachAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoachAddForm.Designer.cs">
+      <DependentUpon>CoachAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CoachDelete&amp;UpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoachDelete&amp;UpdateForm.Designer.cs">
+      <DependentUpon>CoachDelete&amp;UpdateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CoachDeleteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoachDeleteForm.Designer.cs">
+      <DependentUpon>CoachDeleteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CoachSearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoachSearchForm.Designer.cs">
+      <DependentUpon>CoachSearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashForm.Designer.cs">
+      <DependentUpon>DashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Datacontext.cs" />
+    <Compile Include="Db\Dbconnection.cs" />
+    <Compile Include="Model\Employee.cs" />
+    <Compile Include="EmployeeAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeAddForm.Designer.cs">
+      <DependentUpon>EmployeeAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeDelete&amp;UpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeDelete&amp;UpdateForm.Designer.cs">
+      <DependentUpon>EmployeeDelete&amp;UpdateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeDeleteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeDeleteForm.Designer.cs">
+      <DependentUpon>EmployeeDeleteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeSearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeSearchForm.Designer.cs">
+      <DependentUpon>EmployeeSearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EquepmentAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EquepmentAddForm.Designer.cs">
+      <DependentUpon>EquepmentAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EquepmentDelete&amp;UpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EquepmentDelete&amp;UpdateForm.Designer.cs">
+      <DependentUpon>EquepmentDelete&amp;UpdateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EquepmentSearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EquepmentSearchForm.Designer.cs">
+      <DependentUpon>EquepmentSearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EquipmentDeleteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EquipmentDeleteForm.Designer.cs">
+      <DependentUpon>EquipmentDeleteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Equipments.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Manger.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BuisnessLogic\FirstTest.cs" />
+    <Compile Include="Model\Trainee.cs" />
+    <Compile Include="TraineeAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TraineeAddForm.Designer.cs">
+      <DependentUpon>TraineeAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TraineeDelete&amp;UpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TraineeDelete&amp;UpdateForm.Designer.cs">
+      <DependentUpon>TraineeDelete&amp;UpdateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TraineeDeleteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TraineeDeleteForm.Designer.cs">
+      <DependentUpon>TraineeDeleteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TraineeSearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TraineeSearchForm.Designer.cs">
+      <DependentUpon>TraineeSearchForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddMangerForm.resx">
+      <DependentUpon>AddMangerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangePasswordForm.resx">
+      <DependentUpon>ChangePasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClassAddForm.resx">
+      <DependentUpon>ClassAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClassUpdateForm.resx">
+      <DependentUpon>ClassUpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoachAddForm.resx">
+      <DependentUpon>CoachAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoachDelete&amp;UpdateForm.resx">
+      <DependentUpon>CoachDelete&amp;UpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoachDeleteForm.resx">
+      <DependentUpon>CoachDeleteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoachSearchForm.resx">
+      <DependentUpon>CoachSearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashForm.resx">
+      <DependentUpon>DashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeAddForm.resx">
+      <DependentUpon>EmployeeAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeDelete&amp;UpdateForm.resx">
+      <DependentUpon>EmployeeDelete&amp;UpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeDeleteForm.resx">
+      <DependentUpon>EmployeeDeleteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeSearchForm.resx">
+      <DependentUpon>EmployeeSearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EquepmentAddForm.resx">
+      <DependentUpon>EquepmentAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EquepmentDelete&amp;UpdateForm.resx">
+      <DependentUpon>EquepmentDelete&amp;UpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EquepmentSearchForm.resx">
+      <DependentUpon>EquepmentSearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EquipmentDeleteForm.resx">
+      <DependentUpon>EquipmentDeleteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="TraineeAddForm.resx">
+      <DependentUpon>TraineeAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TraineeDelete&amp;UpdateForm.resx">
+      <DependentUpon>TraineeDelete&amp;UpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TraineeDeleteForm.resx">
+      <DependentUpon>TraineeDeleteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TraineeSearchForm.resx">
+      <DependentUpon>TraineeSearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\Classes.datasource" />
+    <None Include="Properties\DataSources\Coach.datasource" />
+    <None Include="Properties\DataSources\Employee.datasource" />
+    <None Include="Properties\DataSources\Equipments.datasource" />
+    <None Include="Properties\DataSources\Trainee.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+</Project>

@@ -1,0 +1,72 @@
+D:\ITI-DotNet\Project C#\FinGYM\bin\Debug\FinGYM.exe.config
+D:\ITI-DotNet\Project C#\FinGYM\bin\Debug\FinGYM.exe
+D:\ITI-DotNet\Project C#\FinGYM\bin\Debug\FinGYM.pdb
+D:\ITI-DotNet\Project C#\FinGYM\obj\Debug\FinGYM.csproj.AssemblyReference.cache
+D:\ITI-DotNet\Project C#\FinGYM\obj\Debug\FinGYM.csproj.SuggestedBindingRedirects.cache
+D:\ITI-DotNet\Project C#\FinGYM\obj\Debug\FinGYM.DashForm.resources
+D:\ITI-DotNet\Project C#\FinGYM\obj\Debug\FinGYM.Welcomeform.resources
+D:\ITI-DotNet\Project C#\FinGYM\obj\Debug\FinGYM.LoginForm.resources
+D:\ITI-DotNet\Project C#\FinGYM\obj\Debug\FinGYM.MainForm.resources
+D:\ITI-DotNet\Project C#\FinGYM\obj\Debug\FinGYM.Properties.Resources.resources
+D:\ITI-DotNet\Project C#\FinGYM\obj\Debug\FinGYM.csproj.GenerateResource.cache
+D:\ITI-DotNet\Project C#\FinGYM\obj\Debug\FinGYM.csproj.CoreCompileInputs.cache
+D:\ITI-DotNet\Project C#\FinGYM\obj\Debug\FinGYM.exe
+D:\ITI-DotNet\Project C#\FinGYM\obj\Debug\FinGYM.pdb
+D:\ITI-DotNet\Project C#\FinGYM\obj\Debug\FinGYM.CoachAddForm.resources
+D:\ITI-DotNet\Project C#\FinGYM\obj\Debug\FinGYM.CoachDelete_UpdateForm.resources
+D:\ITI-DotNet\Project C#\FinGYM\obj\Debug\FinGYM.CoachSearchForm.resources
+D:\ITI-DotNet\Project C#\FinGYM\obj\Debug\FinGYM.EmployeeAddForm.resources
+D:\ITI-DotNet\Project C#\FinGYM\obj\Debug\FinGYM.EmployeeDelete_UpdateForm.resources
+D:\ITI-DotNet\Project C#\FinGYM\obj\Debug\FinGYM.EmployeeSearchForm.resources
+D:\ITI-DotNet\Project C#\FinGYM\obj\Debug\FinGYM.EquepmentAddForm.resources
+D:\ITI-DotNet\Project C#\FinGYM\obj\Debug\FinGYM.EquepmentDelete_UpdateForm.resources
+D:\ITI-DotNet\Project C#\FinGYM\obj\Debug\FinGYM.EquepmentSearchForm.resources
+D:\ITI-DotNet\Project C#\FinGYM\obj\Debug\FinGYM.TraineeAddForm.resources
+D:\ITI-DotNet\Project C#\FinGYM\obj\Debug\FinGYM.TraineeDelete_UpdateForm.resources
+D:\ITI-DotNet\Project C#\FinGYM\obj\Debug\FinGYM.TraineeSearchForm.resources
+D:\ITI-DotNet\Project C#\FinGYM\obj\Debug\FinGYM.ClassAddForm.resources
+D:\ITI-DotNet\Project C#\FinGYM\obj\Debug\FinGYM.ClassUpdateForm.resources
+D:\ITI-DotNet\Project C#\FinGYM\obj\Debug\FinGYM.CoachDeleteForm.resources
+D:\ITI-DotNet\Project C#\FinGYM\obj\Debug\FinGYM.EmployeeDeleteForm.resources
+D:\ITI-DotNet\Project C#\FinGYM\obj\Debug\FinGYM.EquipmentDeleteForm.resources
+D:\ITI-DotNet\Project C#\FinGYM\obj\Debug\FinGYM.TraineeDeleteForm.resources
+D:\ITI-DotNet\Project C#\FinGYM\obj\Debug\FinGYM.ChangePasswordForm.resources
+D:\EF\FinGYM\bin\Debug\FinGYM.exe.config
+D:\EF\FinGYM\bin\Debug\FinGYM.exe
+D:\EF\FinGYM\bin\Debug\FinGYM.pdb
+D:\EF\FinGYM\bin\Debug\EntityFramework.dll
+D:\EF\FinGYM\bin\Debug\EntityFramework.SqlServer.dll
+D:\EF\FinGYM\bin\Debug\EntityFramework.xml
+D:\EF\FinGYM\bin\Debug\EntityFramework.SqlServer.xml
+D:\EF\FinGYM\obj\Debug\FinGYM.csproj.AssemblyReference.cache
+D:\EF\FinGYM\obj\Debug\FinGYM.csproj.SuggestedBindingRedirects.cache
+D:\EF\FinGYM\obj\Debug\FinGYM.ChangePasswordForm.resources
+D:\EF\FinGYM\obj\Debug\FinGYM.ClassAddForm.resources
+D:\EF\FinGYM\obj\Debug\FinGYM.ClassUpdateForm.resources
+D:\EF\FinGYM\obj\Debug\FinGYM.CoachAddForm.resources
+D:\EF\FinGYM\obj\Debug\FinGYM.CoachDelete_UpdateForm.resources
+D:\EF\FinGYM\obj\Debug\FinGYM.CoachDeleteForm.resources
+D:\EF\FinGYM\obj\Debug\FinGYM.CoachSearchForm.resources
+D:\EF\FinGYM\obj\Debug\FinGYM.DashForm.resources
+D:\EF\FinGYM\obj\Debug\FinGYM.EmployeeAddForm.resources
+D:\EF\FinGYM\obj\Debug\FinGYM.EmployeeDelete_UpdateForm.resources
+D:\EF\FinGYM\obj\Debug\FinGYM.EmployeeDeleteForm.resources
+D:\EF\FinGYM\obj\Debug\FinGYM.EmployeeSearchForm.resources
+D:\EF\FinGYM\obj\Debug\FinGYM.EquepmentAddForm.resources
+D:\EF\FinGYM\obj\Debug\FinGYM.EquepmentDelete_UpdateForm.resources
+D:\EF\FinGYM\obj\Debug\FinGYM.EquepmentSearchForm.resources
+D:\EF\FinGYM\obj\Debug\FinGYM.EquipmentDeleteForm.resources
+D:\EF\FinGYM\obj\Debug\FinGYM.Welcomeform.resources
+D:\EF\FinGYM\obj\Debug\FinGYM.LoginForm.resources
+D:\EF\FinGYM\obj\Debug\FinGYM.MainForm.resources
+D:\EF\FinGYM\obj\Debug\FinGYM.Properties.Resources.resources
+D:\EF\FinGYM\obj\Debug\FinGYM.TraineeAddForm.resources
+D:\EF\FinGYM\obj\Debug\FinGYM.TraineeDelete_UpdateForm.resources
+D:\EF\FinGYM\obj\Debug\FinGYM.TraineeDeleteForm.resources
+D:\EF\FinGYM\obj\Debug\FinGYM.TraineeSearchForm.resources
+D:\EF\FinGYM\obj\Debug\FinGYM.csproj.GenerateResource.cache
+D:\EF\FinGYM\obj\Debug\FinGYM.csproj.CoreCompileInputs.cache
+D:\EF\FinGYM\obj\Debug\FinGYM.csproj.CopyComplete
+D:\EF\FinGYM\obj\Debug\FinGYM.exe
+D:\EF\FinGYM\obj\Debug\FinGYM.pdb
+D:\EF\FinGYM\obj\Debug\FinGYM.AddMangerForm.resources
